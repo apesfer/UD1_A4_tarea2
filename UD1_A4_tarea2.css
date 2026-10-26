@@ -1,0 +1,60 @@
+body {
+	margin: 24px;
+	font-family: Arial, sans-serif;
+	color: #20252b;
+}
+
+.contenedor-tabla {
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+table {
+	width: 100%;
+	min-width: 720px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	text-align: center;
+}
+
+caption {
+	padding: 0 0 16px;
+	font-size: 1.35rem;
+	font-weight: bold;
+}
+
+th,
+td {
+	border: 1px solid #52616b;
+	padding: 10px 8px;
+}
+
+thead th {
+	background-color: #263c4a;
+	color: #fff;
+}
+
+.hora {
+	width: 105px;
+	background-color: #edf1f3;
+	font-weight: bold;
+}
+
+.recreo {
+	background-color: #f1f3f4;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.bases-datos { background-color: #d9edf7; }
+.sistemas { background-color: #e4e8f7; }
+.lenguajes { background-color: #fce8d5; }
+.fol { background-color: #f7e2ec; }
+.programacion { background-color: #e2f0d9; }
+.cd { background-color: #fff1c9; }
+
+@media (max-width: 600px) {
+	body { margin: 16px; }
+	caption { font-size: 1.1rem; }
+	th, td { padding: 8px 6px; }
+}
